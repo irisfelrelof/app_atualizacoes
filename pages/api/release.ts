@@ -66,7 +66,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const blob = await put(filename, fileBuffer, {
       access: 'public',
       contentType: 'application/vnd.android.package-archive',
-      allowOverwrite: true,
     });
     apkUrl = blob.url;
   } catch (err) {

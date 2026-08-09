@@ -21,7 +21,6 @@ export async function saveStore(store: ReleasesStore): Promise<void> {
   await put(REGISTRY_KEY, JSON.stringify(store, null, 2), {
     access: 'public',
     contentType: 'application/json',
-    allowOverwrite: true,
   });
 }
 
