@@ -264,7 +264,7 @@ const Home: NextPage<Props> = ({ latest, previous }) => {
                 className={styles.secondaryBtn}
                 onClick={() => setShowUpload((current) => !current)}
               >
-                {showUpload ? 'Fechar upload' : 'Subir atualização'}
+                {showUpload ? 'Fechar upload' : 'Mandar app no ar'}
               </button>
 
               {showUpload && (
