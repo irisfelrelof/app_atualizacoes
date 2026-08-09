@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "pages/api/release.ts": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
+}
